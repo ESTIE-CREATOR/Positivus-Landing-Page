@@ -5,7 +5,7 @@ import { About, Blog, Cases, HomePage, Pricing, Request, Services, Navbar, Foote
 const App = () => {
   return (
     <Router>
-    <div>
+    <div className='overflow-x-hidden'>
       {/* Navbar - Will appear on every page */}
       <Navbar />
 

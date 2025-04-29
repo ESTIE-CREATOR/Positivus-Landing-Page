@@ -84,6 +84,15 @@ export const    OWPS = [
     }
   ];
 
+ export const impactStats = [
+    { value: "8+", label: "Years of Experience" },
+    { value: "50+", label: "Experts" },
+    { value: "100+", label: "Successful Campaigns" },
+    { value: "20+", label: "Industry Awards" },
+    { value: "500%", label: "ROI for our clients" },
+  ];
+  
+
  export const roadmap = [
     {
       year: "2019",
@@ -133,3 +142,22 @@ export const    OWPS = [
 
     }
   ];
+
+  export const Recognition = [
+    {
+      label: "Best Small Business Digital Marketing Agency of the Year",
+      des: "Recognized for delivering outstanding results and tailored strategies that drive growth for small businesses."
+    },
+    {
+      label: "Innovative Website Design",
+      des: "Awarded for crafting visually compelling and user-friendly websites that enhance brand identity and engagement."
+    },
+    {
+      label: "Top Performing PPC Campaign of the Year",
+      des: "Celebrated for executing a high-impact PPC campaign that maximized ROI and exceeded performance benchmarks."
+    },
+    {
+      label: "Expertise in Social Media Marketing",
+      des: "Honored for driving measurable results through creative, data-driven social media strategies across platforms."
+    }
+  ]

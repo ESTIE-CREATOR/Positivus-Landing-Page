@@ -7,8 +7,8 @@ const Core = () => {
   <section className="max-container mt-[40px] md:mt-[140px]">
     <div className="p-2 md:padding-x ">
     <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
-      <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green  font-medium">Our Impact in Numbers</h2>
-      <p className="font-grotesk flex items-center text-lg w-[450px]">A snapshot of the milestones and acheivements that drive our success</p>
+      <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green  font-medium">Core Values</h2>
+      <p className="font-grotesk flex items-center text-lg w-[350px]">At the heart of everything we do are our core values: </p>
     </div>
 
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] mt-[80px]">
