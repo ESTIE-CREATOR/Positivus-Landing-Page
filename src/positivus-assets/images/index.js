@@ -41,6 +41,10 @@ import aboutUsHeroIllusion from './aboutUsHeroIllusion.png'
 import AboutUsImpact from './AboutUsImpact.png'
 import AboutUsCoreValues1 from './AboutUsCoreValues1.png'
 import AboutUsCoreValues2 from './AboutUsCoreValues2.png'
+import Awards1 from './Awards1.png'
+import Awards2 from './Awards2.png'
+import Awards3 from './Awards3.png'
+import Awards4 from './Awards4.png'
 
 export {
     amazonLogo,
@@ -82,5 +86,9 @@ export {
     aboutUsHeroIllusion,
     AboutUsImpact,
     AboutUsCoreValues1,
-    AboutUsCoreValues2
+    AboutUsCoreValues2,
+    Awards1,
+    Awards2,
+    Awards3,
+    Awards4
 }

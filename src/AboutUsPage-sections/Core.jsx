@@ -13,7 +13,7 @@ const Core = () => {
 
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] mt-[80px]">
       {values.map((value, index) => (
-        <div  key={index} className="flex justify-between items-center border-[1px] rounded-[45px] border-rich-black p-[50px] " >
+        <div  key={index} className="flex justify-between items-center border-[1px] rounded-[45px] border-rich-black p-[50px] border-b-[4px]" >
          <div>
           <h3 className="text-[32px] font-bold mb-2 text-rich-black font-grotesk">{value.label}</h3>
           <div className="w-full h-[1px] bg-rich-black mb-[30px] "></div>

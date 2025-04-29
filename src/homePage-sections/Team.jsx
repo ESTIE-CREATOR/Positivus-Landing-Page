@@ -13,7 +13,7 @@ const Team = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
         {teamMembers.map((member, index) => ( 
-          <div className="relative border-[1px] border-rich-black rounded-[45px] p-6 sm:p-8" key={index}>
+          <div className="relative border-[1px] border-rich-black rounded-[45px] p-6 sm:p-8 border-b-[4px]" key={index}>
             <div className="">
               <div className="flex ">
                 <img src={member.src} alt="image of team members" width={97.82} height={97.82} className="object-contain" />

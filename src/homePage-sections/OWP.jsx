@@ -24,7 +24,7 @@ const OWP = () => {
           {OWPS.map((step, index) => (
             <div key={index} className="w-full">
               {/* Step Header (Clickable) */}
-              <div className={` w-full p-4 sm:p-6 rounded-[45px] 
+              <div className={` w-full p-4 sm:p-6 rounded-[45px] border-rich-black border-[1px] border-b-[4px]
                   ${activeStep === index ? "bg-lime-green text-black" : "bg-gray-100 text-black"}`}>
               <button
                 onClick={() => toggleStep(index)}

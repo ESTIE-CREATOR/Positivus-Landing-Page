@@ -1,4 +1,4 @@
-import { amazonLogo, dribbleLogo, hubspotLogo, notionLogo, netflix, zoom, servicesIllustration1, servicesIllustration2, servicesIllustration3, servicesIllustration4, servicesIllustration5, servicesIllustration6, Team1, Team2, Team3, Team4, Team5, Team6, AboutUsCoreValues1, AboutUsCoreValues2,  } from "../positivus-assets/images";
+import { amazonLogo, dribbleLogo, hubspotLogo, notionLogo, netflix, zoom, servicesIllustration1, servicesIllustration2, servicesIllustration3, servicesIllustration4, servicesIllustration5, servicesIllustration6, Team1, Team2, Team3, Team4, Team5, Team6, AboutUsCoreValues1, AboutUsCoreValues2, Awards1, Awards2, Awards3, Awards4,  } from "../positivus-assets/images";
 
 export const navLinks = [
   { label: "Home", href: "/" },
@@ -146,18 +146,22 @@ export const    OWPS = [
   export const Recognition = [
     {
       label: "Best Small Business Digital Marketing Agency of the Year",
-      des: "Recognized for delivering outstanding results and tailored strategies that drive growth for small businesses."
+      des: "Recognized for delivering outstanding results and tailored strategies that drive growth for small businesses.",
+      src: Awards1
     },
     {
       label: "Innovative Website Design",
-      des: "Awarded for crafting visually compelling and user-friendly websites that enhance brand identity and engagement."
+      des: "Awarded for crafting visually compelling and user-friendly websites that enhance brand identity and engagement.",
+      src: Awards2
     },
     {
       label: "Top Performing PPC Campaign of the Year",
-      des: "Celebrated for executing a high-impact PPC campaign that maximized ROI and exceeded performance benchmarks."
+      des: "Celebrated for executing a high-impact PPC campaign that maximized ROI and exceeded performance benchmarks.",
+      src: Awards3
     },
     {
       label: "Expertise in Social Media Marketing",
-      des: "Honored for driving measurable results through creative, data-driven social media strategies across platforms."
+      des: "Honored for driving measurable results through creative, data-driven social media strategies across platforms.",
+      src: Awards4
     }
   ]
