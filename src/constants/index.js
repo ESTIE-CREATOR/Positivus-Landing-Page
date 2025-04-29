@@ -1,4 +1,4 @@
-import { amazonLogo, dribbleLogo, hubspotLogo, notionLogo, netflix, zoom, servicesIllustration1, servicesIllustration2, servicesIllustration3, servicesIllustration4, servicesIllustration5, servicesIllustration6, Team1, Team2, Team3, Team4, Team5, Team6,  } from "../positivus-assets/images";
+import { amazonLogo, dribbleLogo, hubspotLogo, notionLogo, netflix, zoom, servicesIllustration1, servicesIllustration2, servicesIllustration3, servicesIllustration4, servicesIllustration5, servicesIllustration6, Team1, Team2, Team3, Team4, Team5, Team6, AboutUsCoreValues1, AboutUsCoreValues2,  } from "../positivus-assets/images";
 
 export const navLinks = [
   { label: "Home", href: "/" },
@@ -115,21 +115,21 @@ export const    OWPS = [
     {
       label: "Client Success First",
       des: "We prioritize our clients' goals and measure our success by the impact we create for them.",
-      src: "", 
+     
     },
     {
       label: "Innovation",
       des: "We embrace change and continuously seek creative solutions to stay ahead in a fast-moving world.",
-      src: "",
+      src: AboutUsCoreValues1,
     },
     {
       label: "Collaboration",
       des: "We believe great things happen when we work together across teams, ideas, and boundaries.",
-      src: "",
+      src: AboutUsCoreValues2,
     },
     {
       label: "Transparency",
       des: "We build trust through honesty, open communication, and accountability in everything we do.",
-      src: "",
+
     }
   ];
