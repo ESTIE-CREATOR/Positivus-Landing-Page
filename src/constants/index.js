@@ -1,0 +1,112 @@
+import { amazonLogo, dribbleLogo, hubspotLogo, notionLogo, netflix, zoom, servicesIllustration1, servicesIllustration2, servicesIllustration3, servicesIllustration4, servicesIllustration5, servicesIllustration6, Team1, Team2, Team3, Team4, Team5, Team6,  } from "../positivus-assets/images";
+
+export const navLinks = [
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Cases", href: "/cases" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "Blog", href: "/blog" },
+  { label: "Request a Quote", href: "/request" },
+];
+
+export const logos = [
+    { src: amazonLogo, alt: "Logo 1" },
+    { src: dribbleLogo, alt: "Logo 2" },
+    { src: hubspotLogo, alt: "Logo 3" },
+    { src: notionLogo, alt: "Logo 4" },
+    { src: netflix, alt: "Logo 5" },
+    { src: zoom, alt: "Logo 5" },
+  ];
+
+export const services = [
+    { label: "Search Engine Optimization (SEO)", src: servicesIllustration1 },
+    { label: "Pay-Per-Click (PPC) Advertising", src: servicesIllustration2 },
+    { label: "Social Media Marketing", src: servicesIllustration3 },
+    { label: "Email Marketing", src: servicesIllustration4 },
+    { label: "Content Creation", src: servicesIllustration5 },
+    { label: "Analytics and Tracking", src: servicesIllustration6 },
+];
+
+export const caseStudies = [
+    {des: "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales."},
+    {des: "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic."},
+    {des: "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales."}
+];
+
+export const    OWPS = [
+    {
+      title: "Consultation",
+      description: "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      title: "Research and Strategy Development",
+      description: "We conduct in-depth research into your industry, competitors, and target audience to develop a customized digital marketing strategy that aligns with your goals."
+    },
+    {
+      title: "Implementation",
+      description: "Our team will execute the strategy, implementing SEO, PPC, social media, and other marketing tactics to drive traffic and conversions."
+    },
+    {
+      title: "Monitoring and Optimization",
+      description: "We continuously monitor the performance of your campaigns, making data-driven adjustments to optimize results and maximize ROI."
+    },
+    {
+      title: "Reporting and Communication",
+      description: "We provide regular reports on campaign performance and maintain open communication to keep you informed and involved in the process."
+    }
+  ];
+
+  export const teamMembers = [
+    {src: Team1, name: "John Smith", position: "CEO and Founder", des: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy" },
+    {src: Team2, name: "Jane Doe" , position: "Director of Operations" , des: "7+ years of experience in project management and team leadership. Strong organizational and communication skills" },
+    {src: Team3, name: "Michael Brown" , position: "Senior SEO Specialist" , des: "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization" },
+    {src: Team4, name: "Emily Johnson" , position: "PPC Manager" , des: "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis" },
+    {src: Team5, name: "Brian Williams" , position: "Social Media Specialist" , des: "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement" },
+    {src: Team6, name: "Sarah Kim" , position: "Content Creator" , des: "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries" },
+  ];
+
+  export const testimonials = [
+    {
+      quote: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
+      name: "John Smith",
+      role: "Marketing Director at XYZ Corp"
+    },
+    {
+      quote: "Positivus transformed our digital marketing strategy with their innovative approach. Their team’s expertise in SEO and content creation helped us achieve top rankings and grow our customer base significantly.",
+      name: "Emily Johnson",
+      role: "CEO at InnovateTech"
+    },
+    {
+      quote: "Working with Positivus has been a game-changer for our online presence. Their tailored strategies and excellent communication made the process seamless and effective.",
+      name: "Michael Brown",
+      role: "Head of Sales at GlobalRetail"
+    }
+  ];
+
+ export const milestones = [
+    {
+      year: "2019",
+      heading: "The Beginning",
+      description:
+        "Positivus was founded to help businesses navigate the digital landscape and achieve online success.",
+    },
+    {
+      year: "2021",
+      heading: "Industry Recognition",
+      description:
+        "Positivus was named among the top 50 global digital agencies for our innovation and leadership.",
+    },
+    {
+      year: "2023",
+      heading: "Innovation and Growth",
+      description:
+        "With over 50 experts, we launched new services to help businesses thrive in the digital era.",
+    },
+    {
+      year: "2024",
+      heading: "Leading the Future",
+      description:
+        "This year, Positivus is pioneering the use of AI personalisation, data-driven strategies and innovative thinking to stay ahead in digital marketing.",
+    },
+  ];
