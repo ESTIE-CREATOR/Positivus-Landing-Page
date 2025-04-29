@@ -1,4 +1,5 @@
-import milestones from "../constants" ;
+import { roadmap } from "../constants"
+
 
 
 const Impact = () => {
@@ -10,12 +11,12 @@ const Impact = () => {
         <p className="font-grotesk flex items-center text-lg w-[450px]">A snapshot of the milestones and acheivements that drive our success</p>
       </div>
 
-      <div className="relative flex flex-col items-center">
+      <div className="relative flex flex-col items-center mt-[80px]">
           {/* Vertical Line */}
           <div className="absolute left-1/2 transform -translate-x-1/2 w-[2px] h-full bg-rich-black max-lg:hidden"></div>
 
           {/* Milestones */}
-          {milestones.map((milestone, index) => (
+          {roadmap.map((milestone, index) => (
             <div
               key={index}
               className="flex flex-col lg:flex-row items-center w-full mb-12 sm:mb-16 lg:mb-20 last:mb-0"

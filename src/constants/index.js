@@ -84,7 +84,7 @@ export const    OWPS = [
     }
   ];
 
- export const milestones = [
+ export const roadmap = [
     {
       year: "2019",
       heading: "The Beginning",
