@@ -1,10 +1,26 @@
-
+import { Cases, Hero, SEO, OS} from '../Services-sections/index.js';
 
 const Services = () => {
   return (
-    <div>
-      
-    </div>
+    <main className='w-full max-container'>
+         
+         <section>
+           <Hero />
+         </section>
+   
+         <section>
+           <SEO />
+         </section>
+   
+         <section>
+           <Cases />
+         </section>
+   
+         <section>
+           <OS />
+         </section>
+   
+       </main>
   )
 }
 
