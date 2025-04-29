@@ -39,6 +39,8 @@ import Testimonialsblock from './Testimonialsblock.png'
 import zoom from './zoom.png'
 import aboutUsHeroIllusion from './aboutUsHeroIllusion.png'
 import AboutUsImpact from './AboutUsImpact.png'
+import AboutUsCoreValues1 from './AboutUsCoreValues1.png'
+import AboutUsCoreValues2 from './AboutUsCoreValues2.png'
 
 export {
     amazonLogo,
@@ -78,5 +80,7 @@ export {
     Testimonialsblock,
     zoom,
     aboutUsHeroIllusion,
-    AboutUsImpact
+    AboutUsImpact,
+    AboutUsCoreValues1,
+    AboutUsCoreValues2
 }
