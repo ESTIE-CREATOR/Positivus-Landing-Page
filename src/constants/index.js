@@ -164,4 +164,53 @@ export const    OWPS = [
       des: "Honored for driving measurable results through creative, data-driven social media strategies across platforms.",
       src: Awards4
     }
-  ]
+  ];
+
+  export const seoServices = [
+    {
+      id: 1,
+      label: "Website Audit & Analysis",
+      description: "Comprehensive evaluation of your website to identify technical issues, SEO gaps, and improvement areas.",
+    },
+    {
+      id: 2,
+      label: "Keyword Research & Strategy",
+      description: "Identifying high-impact keywords your audience is searching for and building a targeted SEO strategy around them.",
+    },
+    {
+      id: 3,
+      label: "On-Page Optimization",
+      description: "Enhancing on-site elements like meta tags, headings, and URL structures to improve search engine visibility.",
+    },
+    {
+      id: 4,
+      label: "Content Creation & Optimization",
+      description: "Crafting high-quality, SEO-friendly content that aligns with user intent and improves engagement.",
+    },
+    {
+      id: 5,
+      label: "Link Building",
+      description: "Developing a network of quality backlinks to boost authority and ranking in search engine results.",
+    },
+    {
+      id: 6,
+      label: "Monitoring & Reporting",
+      description: "Tracking SEO performance through analytics and providing clear, actionable insights in regular reports.",
+    },
+  ];
+  
+  export const industriesServed = [
+    {
+      label: "E-commerce Fashion Brand",
+      description: "Boosting online visibility, traffic, and conversions for digital storefronts through tailored SEO strategies.",
+    },
+    {
+      label: "Local Restaurant Chain",
+      description: "Driving foot traffic and online orders by optimizing for local searches and customer engagement.",
+    },
+    {
+      label: "Health Provider",
+      description: "Improving discoverability and trust for medical services through targeted, compliance-friendly SEO practices.",
+    },
+  ];
+  

@@ -45,6 +45,7 @@ import Awards1 from './Awards1.png'
 import Awards2 from './Awards2.png'
 import Awards3 from './Awards3.png'
 import Awards4 from './Awards4.png'
+import servicePage from './servicePage.png'
 
 export {
     amazonLogo,
@@ -90,5 +91,6 @@ export {
     Awards1,
     Awards2,
     Awards3,
-    Awards4
+    Awards4,
+    servicePage
 }
