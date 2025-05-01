@@ -1,5 +1,5 @@
 import { servicePage, servicesIllustration7 } from "../positivus-assets/images";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpLeft } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="mt-[30px] mb-[50px]">
         <button className="flex gap-[20px] items-center justify-center">
         <span className="p-2 rounded-full bg-rich-black flex items-center justify-center" >
-          <ArrowUpRight className="stroke-current text-lime-green" />
+          <ArrowUpLeft className="stroke-current text-lime-green" />
         </span>
        <span className="font-grotesk">Back</span>
         </button>
