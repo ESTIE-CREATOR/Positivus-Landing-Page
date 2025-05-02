@@ -15,8 +15,8 @@ const Hero = () => {
 
       
 
-      <div className="bg-rich-black flex items-start pl-[40px] pr-[70px] py-[60px] gap-8 rounded-[45px] mt-[140px] ">
-        <div className="hidden max-sm:flex w-20 h-7 bg-lime-green items-center justify-center font-bold text-lg" style={{clipPath: "polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%)",}}></div>
+      <div className="bg-rich-black flex items-start max-md:flex-col pl-[40px] pr-[70px] py-[60px] gap-8 rounded-[45px] mt-[140px] ">
+        <div className="hidden max-sm:flex w-6 h-6 bg-lime-green items-center justify-center font-bold text-lg" style={{clipPath: "polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%)",}}></div>
           <div className="flex flex-col gap-8">
         <h2 className="text-[32px] bg-lime-green font-grotesk py-[10px] rounded-md font-bold sm:w-[380px]">Featured Sucess Stories</h2>
         <p className="font-medium font-grotesk text-white text-[25px] ">Scaling Success for a Leading E- Commerce Brand</p>

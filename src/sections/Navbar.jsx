@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="mt-[25px] ">
+    <header className="mt-[60px] ">
       <nav className="max-container flex justify-between items-center w-full p-2 md:padding-x">
         <Link to="/">
           <img
@@ -28,7 +28,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `text-lg leading-normal font-grotesk ${
                     link.label === "Request a Quote"
-                      ? "border-black border-2 px-[20px] py-[35px] rounded-[14px]"
+                      ? "border-black border-2 py-[20px] px-[35px] rounded-[14px]"
                       : "px-[15px] py-[10px] rounded-md"
                   } ${
                     isActive && link.label !== "Request a Quote"

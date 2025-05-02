@@ -4,7 +4,7 @@ import { homepageIllustration } from "../positivus-assets/images"
 
 const Hero = () => {
   return (
-    <section className="w-full min-h-screen max-container md:padding-x px-4 mt-[50px] ">
+    <section className="w-full min-h-screen max-container md:padding-x px-4 mt-[70px] ">
       <div className="flex flex-col ">
       <div className="flex flex-1 xl:flex-row flex-col xl:justify-between items-center ">
       <div className="flex flex-col xl:w-[531px] xl:h-[481] gap-[35px]">

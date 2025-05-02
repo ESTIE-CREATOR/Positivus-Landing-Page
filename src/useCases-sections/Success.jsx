@@ -20,9 +20,11 @@ const Success = () => {
           <div
           key={index}
           className={`p-6 
-            ${!isLastRow ? 'border-b' : ''} 
-            ${!isLastCol ? 'border-r' : ''} 
-            border-rich-black`}
+            sm:${!isLastRow ? 'border-b' : ''} 
+            sm:${!isLastCol ? 'border-r' : ''} 
+            border-rich-black
+            max-sm:border-b-[1px]`}
+            
         >
           <h3 className="text-[24px] font-semibold mb-2">{study.title}</h3>
           <p className="text-[18px] font-grotesk mb-4">{study.description}</p>

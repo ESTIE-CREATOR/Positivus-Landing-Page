@@ -22,7 +22,7 @@ const Services = () => {
         <div className="flex flex-col gap-[26px] py-[60px] max-w-[500px]">
           <h3 className="font-grotesk text-[30px]">Let's make things happen</h3>
           <p className="font-grotesk text-[18px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-           <div className="px-[35px] py-[20px] ">
+           <div className="py-[20px] ">
                   <Button label="Get your free proposal"  />
             </div>
         </div>

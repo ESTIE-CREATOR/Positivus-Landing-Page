@@ -261,3 +261,82 @@ export const successStories = [
       "Through content optimization and targeted keyword strategy, we helped a healthcare provider rank on the first page for critical services, resulting in a 180% increase in inquiries and patient bookings.",
   },
 ];
+
+
+export const plans = [
+  {
+    title: "Basic Plan",
+    price: "$500",
+    features: [
+      "Website optimization",
+      "Social media setup and management (1 platform)",
+      "Monthly progress report",
+      "Email support",
+      "Basic competitor analysis",
+      "Initial SEO audit",
+    ],
+    popular: false,
+    bg: "bg-white",
+    text: "text-black",
+    buttonStyle: "bg-black text-white",
+  },
+  {
+    title: "Pro Plan",
+    price: "$1000",
+    features: [
+      "Includes all from the Basic Plan",
+      "Social media setup and management (up to 3 platforms)",
+      "PPC ad campaign management",
+      "Email and phone support",
+      "On-page SEO improvements",
+      "Monthly content recommendations",
+    ],
+    popular: true,
+    bg: "bg-rich-black text-white",
+    text: "text-white",
+    buttonStyle: "bg-lime-400 text-black",
+  },
+  {
+    title: "Elite Plan",
+    price: "$2000",
+    features: [
+      "Includes all from the Pro Plan",
+      "Website design and development",
+      "Comprehensive SEO strategy",
+      "Social media setup and management (up to 5 platforms)",
+      "Content marketing strategy and implementation",
+      "In-depth analytics and reporting",
+    ],
+    popular: false,
+    bg: "bg-white",
+    text: "text-black",
+    buttonStyle: "bg-black text-white",
+  },
+];
+
+
+export const faqData = [
+  {
+    question: "Are there any additional fees or charges that may apply?",
+    answer:
+      "Our pricing plans include a wide range of digital marketing services, including website design and development, SEO, PPC advertising, social media marketing, content marketing and more. We also offer custom packages that can be tailored to meet the specific needs of your business.",
+  },
+  {
+    question: "Can I change or cancel my plan at any time?",
+    answer: "Yes, you can change or cancel your plan at any time.",
+  },
+  {
+    question: "Do you offer a free trial or consultation?",
+    answer: "Yes, we offer a free consultation to discuss your needs and how we can help.",
+  },
+  {
+    question: "How do you bill and invoice your clients?",
+    answer:
+      "We bill our clients monthly and provide detailed invoices via email. Payments can be made via credit card or bank transfer.",
+  },
+  {
+    question: "Are your services guaranteed to deliver results?",
+    answer:
+      "While we cannot guarantee specific results due to the nature of digital marketing, we are committed to delivering measurable improvements and work closely with our clients to achieve their goals.",
+  },
+];

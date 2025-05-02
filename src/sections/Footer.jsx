@@ -1,9 +1,13 @@
 
+import { useState } from 'react';
+import {  NavLink } from 'react-router-dom';
+import { navLinks } from '../constants';
 import { FooterLogo } from "../positivus-assets/images"
 import { FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 
 
 const footer = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
       <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]" >
@@ -15,12 +19,27 @@ const footer = () => {
               <img src={FooterLogo} alt="footer logo" width={180} height={29} className="object-contain" />
               </div>
 
-            <ul className="flex items-center justify-center gap-[40px] max-md:flex-col ">
-              <li className="text-white text-[16px] font-grotesk">About Us</li>
-              <li className="text-white text-[16px] font-grotesk">Services</li>
-              <li className="text-white text-[16px] font-grotesk">Portfolio</li>
-              <li className="text-white text-[16px] font-grotesk">Blog</li>
-            </ul>
+           <ul className="hidden lg:flex  items-center justify-center space-x-1 max-lg:hidden">
+                     {navLinks
+  .filter(link => link.label !== "Pricing" && link.label !== "Request a Quote")
+  .map((link) => (
+                       <li key={link.label} className="flex">
+                         <NavLink
+                           to={link.href}
+                           className={({ isActive }) =>
+                             `text-lg leading-normal font-grotesk px-[15px] py-[10px] rounded-md
+                              ${
+                               isActive && link.label !== "Request a Quote"
+                                 ? "bg-green-500 text-white"
+                                 : "text-white hover:text-gray-300"
+                             }`
+                           }
+                         >
+                           {link.label}
+                         </NavLink>
+                       </li>
+                     ))}
+                   </ul>
      
             <div className="flex items-center justify-center gap-[20px] max-md:hidden">
             <FaLinkedin className="text-white w-6 h-6" />

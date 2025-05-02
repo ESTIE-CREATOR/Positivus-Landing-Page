@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { testimonials } from "../constants";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { servicesIllustration7 } from "../positivus-assets/images";
+import Button from "../homePage-components/Button"
 
 
 const Testimonials = () => {
@@ -86,6 +88,19 @@ const Testimonials = () => {
       </div>
     </div>
 
+    <div className="flex flex-row justify-between items-center flex-1 w-full bg-lime-green rounded-[45px] mt-[123px] px-[60px] mb-[23]">
+        <div className="flex flex-col gap-[26px] py-[60px] max-w-[500px]">
+          <h3 className="font-grotesk text-[30px]">
+          Let's Create Your Next Success Story  </h3>
+          <p className="font-grotesk text-[18px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+           <div className=" py-[20px] ">
+                  <Button label="Get your free proposal"  />
+            </div>
+        </div>
+        <div className="max-sm:hidden">
+          <img src={servicesIllustration7} alt="Illustration" width={359} height={394} />
+        </div>
+      </div>
 
       </div>
     </section>
