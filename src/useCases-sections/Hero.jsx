@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="flex flex-1 xl:flex-row xl:justify-between items-center pt-[20px] lg:bg-light-gray lg:rounded-[45px] lg:pt-[60px] pb-[80px] px-[70px] gap-4 lg:border-rich-black lg:border-[1px] lg:border-b-[4px] max-md:flex-col-reverse">
       <img src="" alt="Illustration" width={800} height={700}  className=" flex flex-1 object-contain bg-light-gray" />
       <div className="flex flex-col xl:w-[531px] xl:h-[481] gap-[35px]">
-        <h1 className="text-[50px] font-bold font-grotesk max-sm:text-center">Proven Success Stories</h1>
-        <p className="text-[20px] font-grotesk leading-[28px] max-sm:text-center">The real-world impact of our strategies, showcasing how we've helped businesses across various industries achieve measurable growth, increase visibility, and reach their goals. These stories reflect our commitment to delivering results and building long-term partnerships grounded in trust, expertise, and performance.</p>
+        <h1 className="text-[60px] font-bold font-grotesk ">Proven Success Stories</h1>
+        <p className="text-[20px] font-grotesk leading-[28px] ">The real-world impact of our strategies, showcasing how we've helped businesses across various industries achieve measurable growth, increase visibility, and reach their goals. These stories reflect our commitment to delivering results and building long-term partnerships grounded in trust, expertise, and performance.</p>
       </div>
       </div>
 

@@ -1,10 +1,23 @@
+import { Hero, Main, Insights } from "../Blog-sections"
 
 
 const Blog = () => {
   return (
-    <div>
-     
-    </div>
+       <main className='w-full max-container'>
+            
+            <section>
+              <Hero />
+            </section>
+      
+            <section>
+              <Main />
+            </section>
+      
+            <section>
+              <Insights  />
+            </section>
+      
+          </main>
   )
 }
 
