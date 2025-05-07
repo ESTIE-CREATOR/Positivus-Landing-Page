@@ -31,8 +31,8 @@ const Testimonials = () => {
     <section>
        <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10  mb-[80px]">
-        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Testimonials</h2>
-        <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[473px]">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium max-sm:text-[30px]">Testimonials</h2>
+        <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[473px] max-sm:text-[16px]">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
       </div>
 
     
@@ -90,9 +90,9 @@ const Testimonials = () => {
 
     <div className="flex flex-row justify-between items-center flex-1 w-full bg-lime-green rounded-[45px] mt-[123px] px-[60px] mb-[23]">
         <div className="flex flex-col gap-[26px] py-[60px] max-w-[500px]">
-          <h3 className="font-grotesk text-[30px]">
+          <h3 className="font-grotesk text-[30px] max-sm:text-[25px]">
           Let's Create Your Next Success Story  </h3>
-          <p className="font-grotesk text-[18px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+          <p className="font-grotesk text-[18px] max-sm:text-[16px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
            <div className=" py-[20px] ">
                   <Button label="Get your free proposal"  />
             </div>

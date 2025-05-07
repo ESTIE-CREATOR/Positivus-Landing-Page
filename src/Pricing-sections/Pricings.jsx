@@ -7,21 +7,23 @@ const Pricing = () => {
     <section className="w-full min-h-screen max-container md:padding-x px-4 mt-[50px] ">
         <div className="flex flex-col">
       <div className="flex flex-col">
-        <h1 className="font-grotesk font-medium text-[100px] ">Pricing</h1>
-        <p className="font-grotesk text-[30px] mt-[20px] ">Elevate Your Online Presence: Competitive Pricing <br /> for excetional Results</p>
+        <h1 className="font-grotesk font-medium text-[100px] max-sm:text-[70px]">Pricing</h1>
+        <p className="font-grotesk text-[30px] mt-[20px] max-sm:text-[18px] ">Elevate Your Online Presence: Competitive Pricing <br /> for excetional Results</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl sm:mx-auto mt-[80px]">
         {plans.map((plan, idx) => (
           <div
             key={idx}
-            className={`rounded-3xl border-[1px] border-b-[4px] border-rich-black p-6 md:p-8 flex flex-col justify-between relative ${plan.bg} ${plan.text}`}
+            className={`rounded-3xl border-[1px] border-b-[4px] border-rich-black pl-6 pr-6 pb-6 pt-4 md:pl-8 md:pr-8 md:pb-8  md:pt-6 flex flex-col justify-between  ${plan.bg} ${plan.text}`}
           >
+            <div className="flex justify-end">
             {plan.popular && (
-              <span className="absolute top-4 right-4 text-xs px-2 py-1 bg-lime-400 text-black rounded-full font-semibold font-grotesk">
+              <span className=" text-xs px-2 py-1 bg-lime-400 text-black rounded-full font-semibold font-grotesk">
                 Popular
               </span>
             )}
+            </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-2 font-grotesk">{plan.title}</h3>
@@ -30,10 +32,10 @@ const Pricing = () => {
                 <span className="text-base font-normal font-grotesk"> /month</span>
               </p>
 
-              <button className={`w-full font-grotesk py-2 rounded-lg mb-3 ${plan.buttonStyle} font-medium`}>
+              <button className={`w-full font-grotesk py-2 rounded-lg mb-3 ${plan.buttonStyle} font-medium transition-transform duration-200 hover:-translate-x-2 hover:underline max-sm:text-[18px]`}>
                 Get Started
               </button>
-              <button className="w-full font-grotesk py-2 rounded-lg border border-gray-400 font-medium">
+              <button className="w-full font-grotesk py-2 rounded-lg border border-gray-400 font-medium transition-transform duration-200 hover:-translate-x-2 hover:underline max-sm:text-[18px] ">
                 Request a quote
               </button>
 

@@ -7,11 +7,11 @@ const contact = () => {
     <section>
        <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10  mb-[80px]">
-        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Contact Us</h2>
-        <p className="font-grotesk flex items-center text-lg md:w-[323px] max-sm:text-center">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium max-sm:text-[30px]">Contact Us</h2>
+        <p className="font-grotesk flex items-center text-lg md:w-[323px] max-sm:text-center max-sm:text-[16px]">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
       </div>
       
-      <div className="bg-light-gray rounded-[45px] pl-6 sm:pl-8 sm:pt-8 sm:pb-8 flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
+      <div className="bg-light-gray rounded-[45px] p-6  sm:pl-8 sm:pt-8 sm:pb-8 flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
           {/* Form */}
           <div className="flex flex-col w-full lg:w-1/2 gap-6 sm:gap-8">
             {/* Radio Buttons */}
@@ -69,7 +69,7 @@ const contact = () => {
             </div>
 
             {/* Send Message Button */}
-            <button className="w-full sm:w-[200px] h-[50px] sm:h-[60px] bg-black text-white rounded-[14px] text-[16px] sm:text-[18px] font-grotesk hover:bg-gray-800 transition-colors">
+            <button className="w-full sm:w-[200px] h-[50px] sm:h-[60px] bg-black text-white rounded-[14px] text-[16px] sm:text-[18px] font-grotesk hover:bg-gray-800 transition-transform duration-200 hover:-translate-y-2 ">
               Send Message
             </button>
           </div>

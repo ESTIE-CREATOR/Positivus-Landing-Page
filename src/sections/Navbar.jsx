@@ -16,12 +16,12 @@ const Navbar = () => {
             alt="header logo"
             width={219}
             height={56}
-            className="flex flex-1 object-contain"
+            className="flex flex-1 object-contain max-sm:w-[150px] max-sm:h-[40px] "
           />
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex items-center justify-center space-x-1 max-lg:hidden">
+        <ul className="hidden lg:flex items-center justify-center space-x-2 max-lg:hidden">
           {navLinks.map((link) => (
             <li key={link.label} className="flex">
               <NavLink
@@ -34,7 +34,7 @@ const Navbar = () => {
                   } ${
                     isActive && link.label !== "Request a Quote"
                       ? "bg-green-500 text-white"
-                      : "text-black hover:text-gray-300"
+                      : "text-black hover:text-green-500"
                   }`
                 }
               >

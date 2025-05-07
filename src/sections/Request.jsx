@@ -1,10 +1,15 @@
-
+import { Contact } from '../Request-sections/index.js';
 
 const Request = () => {
   return (
-    <div>
-     
-    </div>
+    <main className='w-full max-container'>
+         
+    <section>
+      <Contact />
+    </section>
+
+
+  </main>
   )
 }
 

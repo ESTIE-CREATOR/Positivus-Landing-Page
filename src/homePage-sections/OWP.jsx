@@ -16,8 +16,8 @@ const OWP = () => {
     <section>
       <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
-        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Our Working Process</h2>
-        <p className="font-grotesk flex items-center text-lg md:w-[292px] max-sm:text-center">Step-by-Step Guide to Achieving Your Business Goals</p>
+        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium max-sm:text-[30px]">Our Working Process</h2>
+        <p className="font-grotesk flex items-center text-lg md:w-[292px] max-sm:text-center max-sm:text-[16px]">Step-by-Step Guide to Achieving Your Business Goals</p>
       </div>
 
       <div className="w-full space-y-4 sm:space-y-6 mt-[80px]">
@@ -37,14 +37,14 @@ const OWP = () => {
                 `}
               >
                 <div className="flex items-center gap-3 sm:gap-4">
-                  <span className="text-[60px] sm:text-[24px] font-grotesk font-medium">
+                  <span className="text-[60px] sm:text-[24px] font-grotesk font-medium max-sm:text-[25px]">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="text-[30px] sm:text-[24px] font-grotesk font-medium text-left">
+                  <h3 className="text-[30px] sm:text-[24px] font-grotesk font-medium text-left max-sm:text-[20px]">
                     {step.title}
                   </h3>
                 </div>
-                <span className="text-[20px]">
+                <span className="text-[20px] max-sm:text-[16px]">
                   {activeStep === index ? "−" : "+"}
                 </span>
 

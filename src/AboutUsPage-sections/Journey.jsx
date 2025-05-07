@@ -6,8 +6,8 @@ const Journey = () => {
     <section className="max-container mt-[40px] md:mt-[140px]">
     <div className="p-2 md:padding-x ">
     <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
-      <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green  font-medium">Our Journey</h2>
-      <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[600px]">
+      <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green font-medium  max-sm:text-[30px]">Our Journey</h2>
+      <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[600px]  max-sm:text-[16px]">
       From humble begginings to industry leaders, discover how positivus has evolved to drive success for businesses worldwide</p>
     </div>
 
@@ -23,7 +23,7 @@ const Journey = () => {
           >
             {/* Year (Left Side on Desktop, Top on Mobile) */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end pr-0 lg:pr-8">
-              <h3 className="text-[32px] sm:text-[40px] font-grotesk font-bold text-lime-green">
+              <h3 className="text-[32px] sm:text-[40px] font-grotesk font-bold text-lime-green  max-sm:text-[27px]">
                 {milestone.year}
               </h3>
             </div>
@@ -36,7 +36,7 @@ const Journey = () => {
             {/* Card (Right Side on Desktop, Bottom on Mobile) */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-start pl-0 lg:pl-8 mt-4 lg:mt-0">
               <div className="bg-rich-black rounded-[45px] p-6 sm:p-8 w-full max-w-[400px]">
-                <h4 className="text-[24px] sm:text-[30px] font-grotesk font-medium text-white">
+                <h4 className="text-[24px] sm:text-[30px] font-grotesk font-medium text-white  max-sm:text-[20px]">
                   {milestone.heading}
                 </h4>
                 <p className="text-[16px] sm:text-[18px] font-grotesk text-white mt-4">

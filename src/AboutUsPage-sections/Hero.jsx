@@ -8,7 +8,7 @@ const Hero = () => {
     
     {/* Left Text Section */}
     <div className="flex flex-col xl:w-[531px] xl:h-[481px] gap-[35px] order-1 md:order-none">
-      <h1 className="text-[60px] font-medium font-grotesk">
+      <h1 className="text-[60px] font-medium font-grotesk  max-sm:text-[40px]">
         Together for <br /> Success
       </h1>
       
@@ -23,7 +23,7 @@ const Hero = () => {
         />
       </div>
       
-      <p className="text-[20px] font-grotesk leading-[28px]">
+      <p className="text-[20px] font-grotesk leading-[28px]  max-sm:text-[18px]">
         At Positivus, we help businesses grow by combining creativity, innovation and data-driven strategies. Together, we build a future of shared success.
       </p>
     </div>
