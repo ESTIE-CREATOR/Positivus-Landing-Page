@@ -8,7 +8,7 @@ const contact = () => {
        <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10  mb-[80px]">
         <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Contact Us</h2>
-        <p className="font-grotesk flex items-center text-lg w-[323px]">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+        <p className="font-grotesk flex items-center text-lg md:w-[323px] max-sm:text-center">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
       </div>
       
       <div className="bg-light-gray rounded-[45px] pl-6 sm:pl-8 sm:pt-8 sm:pb-8 flex flex-col sm:flex-row items-center gap-6 sm:gap-8">

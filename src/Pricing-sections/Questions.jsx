@@ -12,7 +12,7 @@ const FAQ = () => {
     <section className="w-full mt-[40px] md:mt-[140px] max-container  ">
     <div className="md:padding-x p-2 flex flex-col ">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
-        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Frequently Asked <br /> Questions</h2>
+        <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Frequently Asked Questions</h2>
       </div>
 
 
@@ -50,6 +50,7 @@ const FAQ = () => {
                     isExpanded ? "max-h-[500px] mt-4" : "max-h-0"
                   }`}
                 >
+                  <div className="h-[1px] w-full bg-rich-black mb-[30px]"></div>
                   <p className="text-[16px] sm:text-[18px] font-grotesk text-rich-black">
                     {item.answer}
                   </p>

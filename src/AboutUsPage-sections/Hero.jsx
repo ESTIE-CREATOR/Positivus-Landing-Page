@@ -3,14 +3,43 @@ import { aboutUsHeroIllusion } from "../positivus-assets/images"
 
 const Hero = () => {
   return (
-<section className="w-full min-h-screen max-container md:padding-x px-4 mt-[50px] ">
-      <div className="flex flex-1 xl:flex-row xl:justify-between items-center pt-[20px] lg:bg-light-gray lg:rounded-[45px] lg:pt-[60px] pb-[80px] px-[70px] gap-4 lg:border-rich-black lg:border-[1px] lg:border-b-[4px] max-xl:flex-col-reverse">
-      <img src={aboutUsHeroIllusion} alt="Illustration" width={800} height={700}  className=" flex flex-1 object-contain bg-light-gray" />
-      <div className="flex flex-col xl:w-[531px] xl:h-[481] gap-[35px]">
-        <h1 className="text-[60px] font-medium font-grotesk">Navigating the <br /> digital landscape <br /> for success</h1>
-        <p className="text-[20px] font-grotesk leading-[28px]">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+<section className="w-full min-h-screen max-container md:padding-x px-4 mt-[20px]">
+<div className="flex flex-col md:flex-row-reverse md:justify-between items-center md:bg-light-gray md:rounded-[45px] md:pt-[60px] pb-[80px] md:px-[70px] gap-2 md:border-rich-black md:border-[1px] md:border-b-[4px]">
+    
+    {/* Left Text Section */}
+    <div className="flex flex-col xl:w-[531px] xl:h-[481px] gap-[35px] order-1 md:order-none">
+      <h1 className="text-[60px] font-medium font-grotesk">
+        Together for <br /> Success
+      </h1>
+      
+      {/* Image appears here on mobile */}
+      <div className="block md:hidden">
+        <img
+          src={aboutUsHeroIllusion}
+          alt="Illustration"
+          width={800}
+          height={700}
+          className="object-contain bg-light-gray"
+        />
       </div>
-      </div>
+      
+      <p className="text-[20px] font-grotesk leading-[28px]">
+        At Positivus, we help businesses grow by combining creativity, innovation and data-driven strategies. Together, we build a future of shared success.
+      </p>
+    </div>
+
+    {/* Right Image for desktop */}
+    <div className="hidden md:block">
+      <img
+        src={aboutUsHeroIllusion}
+        alt="Illustration"
+        width={800}
+        height={700}
+        className="object-contain bg-light-gray"
+      />
+    </div>
+
+  </div>
     </section>
   )
 }

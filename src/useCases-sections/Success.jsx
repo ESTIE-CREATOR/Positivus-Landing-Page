@@ -8,7 +8,7 @@ const Success = () => {
     <div className="p-2 md:padding-x ">
     <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
       <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">All Success Stories</h2>
-      <p className="font-grotesk flex items-center text-lg w-[580px]">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+      <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[580px]">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
     </div>
 
     <div className="grid grid-cols-1 md:grid-cols-3  rounded-[45px] border-rich-black border-[1px] mt-[80px] p-[30px] border-b-[4px] ">
@@ -19,11 +19,9 @@ const Success = () => {
             return(
           <div
           key={index}
-          className={`p-6 
-            sm:${!isLastRow ? 'border-b' : ''} 
-            sm:${!isLastCol ? 'border-r' : ''} 
-            border-rich-black
-            max-sm:border-b-[1px]`}
+          className={`p-6 border-rich-black max-md:border-b-[1px] 
+            ${!isLastRow ? 'md:border-b' : ''} 
+            ${!isLastCol ? 'md:border-r' : ''}`}
             
         >
           <h3 className="text-[24px] font-semibold mb-2">{study.title}</h3>

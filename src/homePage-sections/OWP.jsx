@@ -17,7 +17,7 @@ const OWP = () => {
       <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
         <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Our Working Process</h2>
-        <p className="font-grotesk flex items-center text-lg w-[292px]">Step-by-Step Guide to Achieving Your Business Goals</p>
+        <p className="font-grotesk flex items-center text-lg md:w-[292px] max-sm:text-center">Step-by-Step Guide to Achieving Your Business Goals</p>
       </div>
 
       <div className="w-full space-y-4 sm:space-y-6 mt-[80px]">

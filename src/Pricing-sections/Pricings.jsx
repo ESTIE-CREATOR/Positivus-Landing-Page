@@ -11,7 +11,7 @@ const Pricing = () => {
         <p className="font-grotesk text-[30px] mt-[20px] ">Elevate Your Online Presence: Competitive Pricing <br /> for excetional Results</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto mt-[80px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl sm:mx-auto mt-[80px]">
         {plans.map((plan, idx) => (
           <div
             key={idx}

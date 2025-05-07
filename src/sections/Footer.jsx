@@ -19,7 +19,7 @@ const footer = () => {
               <img src={FooterLogo} alt="footer logo" width={180} height={29} className="object-contain" />
               </div>
 
-           <ul className="hidden lg:flex  items-center justify-center space-x-1 max-lg:hidden">
+           <ul className="flex flex-col md:flex-row  items-center justify-center space-x-1 ">
                      {navLinks
   .filter(link => link.label !== "Pricing" && link.label !== "Request a Quote")
   .map((link) => (
@@ -50,14 +50,14 @@ const footer = () => {
 
         </div>
 
-        <div className="text-white mt-[66px] flex flex-row max-lg:flex-col justify-between items-center w-full gap-[154px] mb-[50px] ">
-          <div className="flex  flex-col">
+        <div className="text-white max-md:mt-[25px] md:mt-[66px] flex flex-row max-lg:flex-col justify-between items-center w-full max-md:gap-[50px] md:gap-[154px] mb-[50px] ">
+          <div className="flex max-md:items-center flex-col">
             <div>
             <button className="font-grotesk text-[20px] bg-lime-green rounded-[7px] px-[7px] py-[0px] hover:bg-lime-green/80 transition-all duration-300 ease-in-out text-black">
               Contact Us:
             </button>
             </div>
-            <div className="flex flex-col gap-[20px] mt-[27px]">
+            <div className="flex flex-col gap-[20px] mt-[27px] max-md:items-center ">
               <p className="text-white text-[18px] font-grotesk">Email: info@positivus.com</p>
               <p className="text-white text-[18px] font-grotesk">Phone: 555-567-8901</p>
               <p className="text-white text-[18px] font-grotesk">Address: 1234 Main St <br />Moonstone City, Stardust State 12345</p>
@@ -66,9 +66,9 @@ const footer = () => {
 
         
           <label className="flex justify-evenly max-lg:flex-col gap-[20px] bg-deep-gray px-[40px] py-[58px]  ">
-            <input type="text" placeholder="Email" className="flex-1 bg-deep-gray border-[1px] border-white rounded-[14px] pl-3  " />
+            <input type="text" placeholder="Email" className="flex-1 bg-deep-gray border-[1px] border-white rounded-[14px] pl-3 max-sm:w-full " />
             <div className="w-full">
-            <button className="font-grotesk text-[20px] bg-lime-green rounded-[14px]  hover:bg-lime-green/80 transition-all duration-300 ease-in-out text-black px-[35px] py-[20px] md:w-[300px]">
+            <button className="font-grotesk text-[20px] bg-lime-green rounded-[14px]  hover:bg-lime-green/80 transition-all duration-300 ease-in-out text-black px-[35px] py-[20px] max-sm:w-full md:w-[300px]">
              Subscribe to news
             </button>
             </div>

@@ -8,12 +8,12 @@ const Core = () => {
     <div className="p-2 md:padding-x ">
     <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
       <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green  font-medium">Core Values</h2>
-      <p className="font-grotesk flex items-center text-lg w-[350px]">At the heart of everything we do are our core values: </p>
+      <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[350px]">At the heart of everything we do are our core values: </p>
     </div>
 
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] mt-[80px]">
       {values.map((value, index) => (
-        <div  key={index} className="flex justify-between items-center border-[1px] rounded-[45px] border-rich-black p-[50px] border-b-[4px]" >
+        <div  key={index} className="flex justify-between items-start border-[1px] rounded-[45px] border-rich-black p-[50px] border-b-[4px]" >
          <div>
           <h3 className="text-[32px] font-bold mb-2 text-rich-black font-grotesk">{value.label}</h3>
           <div className="w-full h-[1px] bg-rich-black mb-[30px] "></div>

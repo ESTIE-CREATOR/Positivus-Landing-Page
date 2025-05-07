@@ -8,7 +8,7 @@ const Team = () => {
       <div className="max-container p-2 md:padding-x mt-[40px] md:mt-[140px]">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10  mb-[80px]">
         <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Team</h2>
-        <p className="font-grotesk flex items-center text-lg w-[473px]">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+        <p className="font-grotesk flex items-center text-lg md:w-[473px] max-sm:text-center">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">

@@ -4,15 +4,46 @@ const Hero = () => {
   return (
     <section className="w-full min-h-screen max-container md:padding-x px-4 mt-[50px] ">
       <div className="flex flex-col">
-      <div className="flex flex-1 lg:flex-row lg:justify-between items-center pt-[20px] bg-light-gray lg:rounded-[45px] lg:pt-[60px] pb-[80px] px-[70px] gap-4 lg:border-rich-black lg:border-[1px] lg:border-b-[4px] max-lg:flex-col-reverse">
-      <img src={homepageIllustration} alt="Illustration" width={450} height={400}  className=" flex flex-1 object-contain bg-light-gray" />
-      <div className="flex flex-col xl:w-[531px] xl:h-[481] gap-[35px]">
-        <p className="bg-[#e8e8e8] text-[#8f8f8f] rounded-[5px] font-grotesk text-[16px] w-[170px] flex justify-center items-center ">Marketing Strategies</p>
-        <h1 className="text-[60px] font-bold font-grotesk ">PPC vs. Organic <br /> Marketing: Which One Is Right for Your Business?</h1>
-        <p className="text-[20px] font-grotesk leading-[28px] ">
-        PPC and organic marketing each offer unique benefits for driving traffic and growing your business. Discover which strategy aligns best with your goals and how to strike the perfect balance.</p>
-      </div>
-      </div>
+      <div className="flex flex-col lg:flex-row lg:justify-between items-center pt-[20px] bg-light-gray lg:rounded-[45px] lg:pt-[60px] pb-[80px] px-[70px] gap-4 lg:border-rich-black lg:border-[1px] lg:border-b-[4px]">
+
+  <div className="flex flex-col xl:w-[531px] gap-[35px]">
+    <p className="bg-[#e8e8e8] text-[#8f8f8f] rounded-[5px] font-grotesk text-[16px] w-[170px] flex justify-center items-center">
+      Marketing Strategies
+    </p>
+
+    <h1 className="text-[60px] font-bold font-grotesk">
+      PPC vs. Organic <br /> Marketing: Which One Is Right for Your Business?
+    </h1>
+
+    {/* Mobile Image Display */}
+    <div className="block lg:hidden">
+      <img
+        src={homepageIllustration}
+        alt="Illustration"
+        width={450}
+        height={400}
+        className="object-contain bg-light-gray"
+      />
+    </div>
+
+
+    <p className="text-[20px] font-grotesk leading-[28px]">
+      PPC and organic marketing each offer unique benefits for driving traffic and growing your business. Discover which strategy aligns best with your goals and how to strike the perfect balance.
+    </p>
+  </div>
+
+  {/* Desktop Image Display */}
+  <div className="hidden lg:block">
+    <img
+      src={homepageIllustration}
+      alt="Illustration"
+      width={450}
+      height={400}
+      className="object-contain bg-light-gray"
+    />
+  </div>
+</div>
+
 
       <div className="flex items-center gap-4 mb-8 sm:mb-12 mt-[80px] ">
           <div className="w-10 h-10 flex items-center justify-center">
@@ -33,7 +64,7 @@ const Hero = () => {
 
         <div className="w-full h-[2px] bg-rich-black mb-[30px] "></div>
 
-        <div className="max-lg:px-[150px] ">
+        <div className="md:px-[150px] ">
         {/* Introduction */}
         <div className="mb-8 sm:mb-12">
           <p className="text-[16px] sm:text-[22px] font-semibold font-grotesk text-rich-black leading-1">

@@ -5,13 +5,43 @@ const Hero = () => {
   return (
     <section className="w-full min-h-screen max-container md:padding-x px-4 mt-[50px] ">
       <div className="flex flex-col">
-      <div className="flex flex-1 xl:flex-row xl:justify-between items-center pt-[20px] lg:bg-light-gray lg:rounded-[45px] lg:pt-[60px] pb-[80px] px-[70px] gap-4 lg:border-rich-black lg:border-[1px] lg:border-b-[4px] max-md:flex-col-reverse">
-      <img src={servicesIllustration7} alt="Illustration" width={800} height={700}  className=" flex flex-1 object-contain bg-light-gray" />
-      <div className="flex flex-col xl:w-[531px] xl:h-[481] gap-[35px]">
-        <h1 className="text-[60px] font-medium font-grotesk">Expert Digital <br />Marketing <br />Services</h1>
-        <p className="text-[20px] font-grotesk leading-[28px] ">Unlock your business's full potential with tailored stategies designed to drive growth and deliver results.</p>
-      </div>
-      </div>
+      <div className="flex flex-col lg:flex-row-reverse lg:justify-between items-center pt-[20px] lg:bg-light-gray lg:rounded-[45px] lg:pt-[60px] pb-[80px] md:px-[70px] gap-2 lg:border-rich-black lg:border-[1px] lg:border-b-[4px]">
+
+  {/* Text and Mobile Image Block */}
+  <div className="flex flex-col xl:w-[531px] xl:h-[481px] gap-[35px] order-1 lg:order-none">
+    <h1 className="text-[60px] font-medium font-grotesk">
+      Expert Digital <br /> Marketing <br /> Services
+    </h1>
+
+    {/* Mobile Image in between */}
+    <div className="block lg:hidden">
+      <img
+        src={servicesIllustration7}
+        alt="Illustration"
+        width={800}
+        height={700}
+        className="object-contain bg-light-gray"
+      />
+    </div>
+
+    <p className="text-[20px] font-grotesk leading-[28px]">
+      Unlock your business's full potential with tailored strategies designed to drive growth and deliver results.
+    </p>
+  </div>
+
+  {/* Desktop Image */}
+  <div className="hidden lg:block">
+    <img
+      src={servicesIllustration7}
+      alt="Illustration"
+      width={800}
+      height={700}
+      className="object-contain bg-light-gray"
+    />
+  </div>
+
+</div>
+
 
       <div className="mt-[30px] mb-[50px]">
         <button className="flex gap-[20px] items-center justify-center">
@@ -32,10 +62,10 @@ const Hero = () => {
  
 </div>
   <div className="flex flex-row max-md:flex-col gap-8">
-        <h2 className="flex items-center justify-center text-center text-[30px] bg-lime-green font-grotesk py-[10px] rounded-md font-medium">Search engine optimization</h2>
+        <h2 className="flex items-center justify-center text-[30px] text-lime-green font-grotesk py-[10px] rounded-md font-medium">Search engine optimization</h2>
         <div className="flex flex-col gap-8">
-          <p className="font-grotesk text-white">SEO is the process of improving a website's visibility on search engines like Google, with the goal of attracting more organic (non-paid) traffic.</p>
-          <button className="bg-white w-full rounded-[10px] p-[10px] flex items-center justify-center">
+          <p className="font-grotesk text-white text-[18px]">SEO is the process of improving a website's visibility on search engines like Google. By optimizing your content and site structure, we help your business rank higher in search results, driving more organic traffic and potential customers.</p>
+          <button className="bg-white w-full text-[25px] rounded-[10px] p-[10px] flex items-center justify-center">
             Boost My Rankings
           </button>
         </div>

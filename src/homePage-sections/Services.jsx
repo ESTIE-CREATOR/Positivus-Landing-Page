@@ -9,7 +9,7 @@ const Services = () => {
     <div className="md:padding-x p-2 flex flex-col ">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
         <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Services</h2>
-        <p className="font-grotesk flex items-center text-lg w-[580px]">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+        <p className="font-grotesk flex items-center text-lg md:w-[580px] max-sm:text-center ">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] mt-[80px]">
@@ -27,7 +27,7 @@ const Services = () => {
             </div>
         </div>
         <div className="max-sm:hidden">
-          <img src={servicesIllustration7} alt="Illustration" width={359} height={394} />
+          <img src={servicesIllustration7} alt="Illustration" width={359} height={394} className="" />
         </div>
       </div>
       </div>

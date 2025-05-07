@@ -7,7 +7,7 @@ const Journey = () => {
     <div className="p-2 md:padding-x ">
     <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
       <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green  font-medium">Our Journey</h2>
-      <p className="font-grotesk flex items-center text-lg w-[600px]">
+      <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[600px]">
       From humble begginings to industry leaders, discover how positivus has evolved to drive success for businesses worldwide</p>
     </div>
 

@@ -29,7 +29,7 @@ const ServiceCard = ({ label, src, index }) => {
     }
 
   return (
-    <div className={`flex justify-between items-center gap-[75px] border-rich-black border-[1px] border-b-[4px] rounded-[45px] ${bgColor} ${textColor} w-full p-[50px]`}>
+    <div className={`flex justify-between items-center gap-[30px] md:gap-[75px] border-rich-black border-[1px] border-b-[4px] rounded-[45px] ${bgColor} ${textColor} w-full p-[50px]`}>
     <div className="flex flex-col">
         <h3 className="text-[30px] font-grotesk font-medium">{label}</h3>
         <button className="flex justify-between items-center w-[164px] h-[41px] md:mt-[90px]">
@@ -43,7 +43,7 @@ const ServiceCard = ({ label, src, index }) => {
         <img
   src={src}
   alt="illustration"
-  className="w-full max-w-[180px] sm:max-w-[210px] h-auto object-contain mx-auto sm:mx-0"
+  className="w-full max-w-[150px] sm:max-w-[210px] h-auto object-contain mx-auto sm:mx-0"
 />
       
     </div>

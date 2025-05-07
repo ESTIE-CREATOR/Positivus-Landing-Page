@@ -7,7 +7,7 @@ const SEO = () => {
     <div className="p-2 md:padding-x ">
     <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
       <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green  font-medium">How We Work: SEO Process</h2>
-      <p className="font-grotesk flex items-center text-lg w-[450px]">
+      <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[450px]">
       Our step-by-step SEO process ensures your website ranks higher, attracts more traffic and drives lasting results. </p>
     </div>
 

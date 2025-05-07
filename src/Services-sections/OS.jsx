@@ -9,12 +9,12 @@ const Services = () => {
     <div className="md:padding-x p-2 flex flex-col ">
       <div className="flex max-lg:justify-center max-lg:items-center flex-col lg:flex-row gap-10 ">
         <h2 className="flex items-center justify-center text-center text-[40px] bg-lime-green font-grotesk py-[10px] rounded-md border-[5px] border-lime-green px-[7px] font-medium">Our Other Services</h2>
-        <p className="font-grotesk flex items-center text-lg w-[580px]">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+        <p className="font-grotesk flex items-center text-lg max-sm:text-center md:w-[580px]">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] mt-[80px]">
-        {services.map((service, index) => (
-       <div className={`flex justify-between items-center gap-[75px] border-rich-black border-[1px] border-b-[4px] rounded-[45px] bg-light-gray text-black w-full p-[50px]`}>
+        {services.map((service) => (
+       <div className={`flex justify-between items-center gap-[30px] md:gap-[75px] border-rich-black border-[1px] border-b-[4px] rounded-[45px] bg-light-gray text-black w-full p-[50px]`}>
        <div className="flex flex-col">
            <h3 className="text-[30px] font-grotesk font-medium">{service.label}</h3>
            <button className="flex justify-between items-center w-[164px] h-[41px] md:mt-[90px]">

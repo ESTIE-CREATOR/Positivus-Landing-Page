@@ -26,7 +26,7 @@
   }
 
   .padding-x {
-    @apply xl:px-24 lg:px-20 sm:px-10 px-6;
+    @apply xl:px-[70px] lg:px-20 sm:px-10 px-6;
   }
 
   .padding-y {
